@@ -1,0 +1,298 @@
+
+*{
+    font-family: sans-serif;
+}
+.logoHeader{
+      display: flex; 
+      background-color: #145985;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-top: 5px;
+      padding-bottom: 5px;
+}
+.logo{
+    width: 60px;
+    display: inline-block;
+    border-radius: 60%;
+    
+    align-items: center;
+ 
+    }
+   
+.logotext{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    align-items: center;
+}
+.CallUs{
+    font-size: 14px;
+    color: white;
+    
+}
+@media only screen and (max-width:387px){
+    .logo{
+    width: 40px;
+    }
+    .logotext{
+        font-size: 14px;
+    }
+    .CallUs{
+        font-size: 11px;
+    }
+}
+
+.V1{
+    border-left: 3px solid white;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+ 
+
+/* Navabar CSS */
+
+.btnNav{
+    border: 1px solid  silver !important;
+    color:#145985 !important ;
+}
+.btnNav:hover{
+   background-color:#145985 !important ;
+   color: white !important;
+   
+}
+.navbarText{
+    color: black !important ;
+    margin-left: 5px;
+}
+.navbarText:hover {
+    background-color:#145985 !important ;
+    color: white !important;
+    border-radius: 50px;
+    
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item{
+    width:250px !important ;
+}
+
+.dropdown-item:hover{
+    background-color:#145985 !important ;
+    color: white !important;
+}
+
+
+
+
+
+/* Dirctors Message */
+.msgimg{
+margin-right: 10px;
+}
+.msgtext{
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+.textMsg{
+text-align: justify;
+color:#4d4c4c;
+
+}
+
+
+/* End Of Director message */
+/* Pakages */
+.btnPkg{
+    background-color:#145985 !important ;
+    color: white !important;
+    border: white !important;
+}
+
+   /* Airlines Section */
+   .airlinesText{
+        font-size: 42px;
+        color: #145985;
+        font-weight: bold;
+       padding-top: 20px;
+       text-align: center;
+       padding-bottom: 0px;
+       text-shadow:2px 4px 2px gray;
+   }
+   .AirDiv{
+       margin-left: 10px;
+       margin-right: 5px;
+       margin-bottom: 10px;
+   }
+  
+   @media only screen and (max-width:576px){
+   .AirDiv{
+      text-align: center;
+      
+   }
+}
+.cardClass{
+    box-shadow: 1px 3px 2px grey;
+}
+
+/* Our Services section */
+.servicesBox{
+   border: 1px solid #939693;
+   margin-bottom: 30px;
+ margin-left: 10px;
+ margin-right: 10px;
+ box-shadow: 1px 3px 2px grey; 
+  
+   
+}
+
+.PlaneText{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color:black ;
+
+   
+}
+.servicesBox:hover {
+    background-color:whitesmoke;
+   
+}
+
+
+
+/* Footer  */
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #145985 ;
+}
+.footerText{
+    color: white;
+    font-weight: bold;
+}
+.footerText1{
+color: #bacad9;
+}
+
+.icons{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.lastSection{
+    background-color: #3b3d3d;
+    color: white;
+    
+    
+}
+
+
+
+
+           /* Contact Us Page */
+           .cotactText{
+          margin-top: 100px;
+          color: #145985;
+          font-weight: bold;
+           }
+     .contactClass{
+         margin-top: 100px;
+     }  
+     .mapClass, .phoneClass, .emailClass{
+         margin-top: 0px;
+         font-size: 25px !important;
+        margin-left: 5px;
+        display: inline-block;
+         
+         
+     }    
+     .textC{
+        margin-left: 20px;
+        margin-top: 5px;
+        
+     }
+
+
+                    /* Tickting  */
+
+    .ticketMainDiv{
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+
+     }               
+    .ticketDiv{
+        background-color: #f8f9fa;
+        width: 250px;
+        height:50px ;
+        margin-bottom: 10px; 
+        box-shadow: 3px 1px #b5bdbc;
+        
+    }
+  
+    .ticketText{
+    color: #696766;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    }
+    .ticketLink{
+    text-decoration: none !important;
+    }
+    .activeTicket{
+        background-color: #145985 !important;
+        color: white !important;
+        
+    }
+    .ticktinfDetailText{
+        margin-top:50px;
+        margin-left: 10px;
+        color: #696766;
+        text-align: justify;
+      
+    }
+
+    /* Gallery */
+  .galleryDiv{
+     margin-top: 100px;
+     
+  }
+  .galleryDivs{
+    margin-left: 50px; 
+    margin-right: 40px; 
+    margin-top: 20px;
+    
+  }
+  @media only screen and (max-width:576px){
+    .galleryDivs>img{
+      width: 200px;
+      height: 200px;
+       
+    }
+  }
+  .galleryDivs>img{
+    box-shadow: 3px 4px 3px 1px grey; 
+  }
+
+
+
+  /* Umrah Packages */
+
+  .packagesHover:hover{
+        border: 1px solid #145985;
+        width: 20rem !important;
+     
+  }
